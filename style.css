@@ -45,8 +45,7 @@ nav ul li {
   display: flex !important;
   -ms-flex-preferred-size: auto;
   flex-basis: auto;
-  /* margin-top: -78px; */
-  margin-left: 180px;
+  margin-left: 300px;
   display: inline-flex;
 }
 
@@ -55,7 +54,6 @@ nav ul li {
   display: flex !important;
   -ms-flex-preferred-size: auto;
   flex-basis: auto;
-  /* margin-top: -517px; */
 }
 
 #header {
@@ -71,11 +69,6 @@ nav ul li {
   left: 0;
 }
 
-.navbar li a:hover,
-:active {
-  color: #089da1;
-}
-
 #site {
   background: url("image/brandi-redd-3vZ3V6JUDT0-unsplash.jpg");
   background-size: cover;
@@ -88,11 +81,6 @@ nav ul li {
   align-items: flex-start;
   justify-content: center;
 }
-
-/* 
-.text-danger{
-  color: #0d0d0d !important;
-} */
 
 .explore-books .card {
   border: none;
@@ -152,10 +140,6 @@ nav ul li {
   margin: auto 20px;
 }
 
-.featured_books .featured_book_box .featured_book_card:hover {
-  box-shadow: 0 0 5px #089da1;
-}
-
 .featured_books .featured_book_box .featured_book_card .featurde_book_img img {
   width: 150px;
   height: 175px;
@@ -178,7 +162,7 @@ nav ul li {
   .featured_book_card
   .featurde_book_tag
   .categories {
-  color: #089da1;
+  /* color: #089da1; */
   margin-top: 8px;
 }
 
@@ -209,7 +193,7 @@ nav ul li {
   .f_btn {
   padding: 8px 20px;
   margin-top: 10px;
-  border: 2px solid #089da1;
+  /* border: 2px solid #089da1; */
   text-decoration: none;
   color: #000;
 }
@@ -233,12 +217,12 @@ nav ul li {
 }
 .search-container input {
   position: relative;
-  width: 240px;
-  height: 32px;
+  width: 320px;
+  height: 40px;
   border: none;
   border-bottom: 1px solid black;
   color: black;
-  font-size: 16px;
+  font-size: 20px;
   outline: 0;
   padding: 0 28px 0 0px;
   border-radius: 0;
@@ -380,10 +364,6 @@ ul {
   margin: auto 20px;
 }
 
-.arrivals_books .featured_book_box .featured_book_card:hover {
-  box-shadow: 0 0 5px #089da1;
-}
-
 .arrivals_books .featured_book_box .featured_book_card .featurde_book_img img {
   width: 150px;
   height: 175px;
@@ -406,7 +386,6 @@ ul {
   .featured_book_card
   .featurde_book_tag
   .categories {
-  color: #089da1;
   margin-top: 8px;
 }
 
@@ -437,7 +416,6 @@ ul {
   .f_btn {
   padding: 8px 20px;
   margin-top: 10px;
-  border: 2px solid #089da1;
   text-decoration: none;
   color: #000;
 }
@@ -452,7 +430,6 @@ ul {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #089da1;
   border-radius: 10px;
 }
 
@@ -463,7 +440,6 @@ ul {
   transform: translate(-50%);
   display: flex;
   align-items: center;
-  /* width: 50px; */
 }
 
 .ffeatured_books .icons li {
@@ -534,18 +510,7 @@ ul {
 .ffeatured_books :hover .featurde_book_img {
   transform: scale(1.1);
 }
-/* 
-.ffeatured_books .discount{
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  background-color: greenyellow;
-  padding: 0.5rem 1rem;
-  color: white;
-  border-radius: 2rem;
-  font-size: 1.5rem;
-  z-index: 2;
-}  */
+
 
 /* classics */
 
@@ -582,9 +547,6 @@ ul {
   margin: auto 20px;
 }
 
-.classics_books .featured_book_box .featured_book_card:hover {
-  box-shadow: 0 0 5px #089da1;
-}
 
 .classics_books .featured_book_box .featured_book_card .featurde_book_img img {
   width: 150px;
@@ -608,7 +570,7 @@ ul {
   .featured_book_card
   .featurde_book_tag
   .categories {
-  color: #089da1;
+  /* color: #089da1; */
   margin-top: 8px;
 }
 
@@ -639,7 +601,7 @@ ul {
   .f_btn {
   padding: 8px 20px;
   margin-top: 10px;
-  border: 2px solid #089da1;
+  /* border: 2px solid #089da1; */
   text-decoration: none;
   color: #000;
 }
@@ -654,9 +616,9 @@ ul {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #089da1;
   border-radius: 10px;
 }
+
 
 .a-ws .a-ws-span12,
 div.a-column.a-span-last {
@@ -777,7 +739,7 @@ div.a-column {
 }
 
 /* *-- Hamburger Icon --*/
-*/
+
 /* .hamburger-icon {
   margin: 0 auto;
   -webkit-transform: rotate(0deg);
@@ -1057,99 +1019,7 @@ button:not(:disabled),
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
 }
-/* button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
-a,
-button,
-.item-overlay,
-.global-overlay,
-.pagination li .page-number,
-.scroll-to-top i:before,
-.btn,
-.slick-dots li,
-.slick-dots li button,
-.related-post-carousel .slick-slide.last-active,
-.searchform__input,
-.product-modal .close,
-.custom-close i,
-.searchform__body,
-.offcanvas-menu-wrapper .offcanvas-menu-inner,
-.offcanvas-navigation .offcanvas-menu li > .menu-expand,
-.ft-product-list .product-thumbnail-action,
-.variation-form .product-color-variations .product-color-variation-btn {
-  -webkit-transition: all 250ms ease-out;
-  -moz-transition: all 250ms ease-out;
-  -ms-transition: all 250ms ease-out;
-  -o-transition: all 250ms ease-out;
-  transition: all 250ms ease-out;
-}
-a, */
-/* a:hover,
-a:focus,
-a:active,
-button,
-button:focus,
-input,
-select,
-textarea,
-.slick-slide {
-  outline: none;
-}
-a,
-button {
-  cursor: pointer;
-}
-button,
-select {
-  text-transform: none;
-}
-input,
-button,
-select,
-optgroup,
-textarea {
-  margin: 0;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-}
-button {
-  border-radius: 0;
-}
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
-button {
-  appearance: auto;
-  writing-mode: horizontal-tb !important;
-  text-rendering: auto;
-  color: buttontext;
-  letter-spacing: normal;
-  word-spacing: normal;
-  line-height: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none;
-  display: inline-block;
-  text-align: center;
-  align-items: flex-start;
-  cursor: default;
-  box-sizing: border-box;
-  background-color: buttonface;
-  margin: 0em;
-  padding: 1px 6px;
-  border-width: 2px;
-  border-style: outset;
-  border-color: buttonborder;
-  border-image: initial;
-} */
 .tab-content {
   width: 100%;
 }
@@ -1243,30 +1113,6 @@ button {
   opacity: 0;
 }
 
-/* a,
-button,
-.item-overlay,
-.global-overlay,
-.pagination li .page-number,
-.scroll-to-top i:before,
-.btn,
-.slick-dots li,
-.slick-dots li button,
-.related-post-carousel .slick-slide.last-active,
-.searchform__input,
-.product-modal .close,
-.custom-close i,
-.searchform__body,
-.offcanvas-menu-wrapper .offcanvas-menu-inner,
-.offcanvas-navigation .offcanvas-menu li > .menu-expand,
-.ft-product-list .product-thumbnail-action,
-.variation-form .product-color-variations .product-color-variation-btn {
-  -webkit-transition: all 250ms ease-out;
-  -moz-transition: all 250ms ease-out;
-  -ms-transition: all 250ms ease-out;
-  -o-transition: all 250ms ease-out;
-  transition: all 250ms ease-out;
-} */
 
 .ft-product .product-action a:not(:last-child) {
   margin-bottom: 10px;
@@ -1393,14 +1239,6 @@ button,
   line-height: 34px;
 }
 
-/* .pagination,
-.breadcrumb {
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  justify-content: center;
-} */
 .pagination {
   margin-left: -180px;
   display: flex;
@@ -1426,6 +1264,43 @@ button,
   left: 0;
   position: absolute;
 }
+
+ .searchform__popup { 
+   width: 100%; 
+   height: 100%; 
+   /* position: fixed; */ 
+   top: 0;
+  left: 0;
+  background-color: rgba(89, 16, 16, 0.8);
+  text-align: center;
+  transition: all ease-in-out .25s;
+  z-index: 9999;
+  color: #232324;
+  -webkit-transform: scale(3);
+  -moz-transform: scale(3);
+  -ms-transform: scale(3);
+  -o-transform: scale(3);
+  transform: scale(3);
+  visibility: hidden;
+  opacity: 0;
+} 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Extra small devices (phones, 600px and down) */
 /* @media only screen and (max-width: 600px) {
@@ -1497,3 +1372,10 @@ body{
   background-size: cover;
 }
 } */
+
+
+
+
+
+
+
